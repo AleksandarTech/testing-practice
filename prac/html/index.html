@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/main.css">
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+
+<script>
+    $(document).ready(function() {
+      $("#target1").css("color", "red");
+      $("#target1").prop("disabled", true);
+      $("#target4").remove();
+      $("#target2").appendTo("#right-well");
+  
+    });
+  </script>
+  
+
+<body>
+    <div class="container-fluid">
+        <h3 class="text-primary text-center">jQuery Playground</h3>
+        <div class="row">
+          <div class="col-xs-6">
+            <h4>#left-well</h4>
+            <div class="well" id="left-well">
+                <button id="target1" class="btn btn-default target">Target1</button>
+                <button id="target2" class="btn btn-default target">Target1</button>
+                <button id="target3" class="btn btn-default target">Target1</button>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <h4>#right-well</h4>
+            <div class="well" id="right-well">
+                <button id="target4" class="btn btn-default target">Target1</button>
+                <button id="target5" class="btn btn-default target">Target1</button>
+                <button id="target6" class="btn btn-default target">Target1</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <span id="parax">This is a pog paragrph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fugit reprehenderit, recusandae porro nisi omnis quo praesentium cumque, 
+          suscipit sint, obcaecati nihil qui. Quasi, delectus dicta? Perspiciatis necessitatibus incidunt ad.
+        </span>
+      </div>
+</body>
+</html>

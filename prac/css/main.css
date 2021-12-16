@@ -1,0 +1,27 @@
+body {
+  background-color: #2fbdec;
+}
+
+#target4 {
+  background-color: red;
+}
+
+/*
+IF STATEMENT EXAMPLE!
+
+ @mixin text-effect($val) {
+  @if $val == danger {
+    color: red;
+  }
+  @else if $val == alert {
+    color: yellow;
+  }
+  @else if $val == success {
+    color: green;
+  }
+  @else {
+    color: black;
+  }
+} 
+*/
+/*# sourceMappingURL=main.css.map */
